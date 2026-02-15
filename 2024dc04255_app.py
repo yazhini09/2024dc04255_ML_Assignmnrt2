@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath("."))
+from model.data_loader import load_and_preprocess_data
 import streamlit as st
 import pandas as pd
 import numpy as np
